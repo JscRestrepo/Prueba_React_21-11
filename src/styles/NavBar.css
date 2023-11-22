@@ -1,0 +1,57 @@
+.arriba{
+    background: rgb(185, 97, 14);
+    background: linear-gradient(0deg, rgb(185, 105, 14) 0%, rgb(185, 97, 14) 35%, rgb(255, 153, 0) 100%);
+    display: flex;
+    align-items: center;
+}
+
+.streaming{
+    width: 50%;
+    font-size: 2rem;
+    color: white;
+    padding-left: 20%;
+}
+
+.loginBoton{
+    width: 80px;
+    padding: 8px;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    background-color: rgb(88, 88, 88);
+    transition: transform 0.3s ease;
+}
+
+.loginBoton:hover{
+    transform: scale(1.1);
+}
+
+.start{
+    color: rgb(255, 255, 255);
+    font-weight: 200px;
+    font-size: 1.1rem;
+}
+
+.startbutton{
+    margin-right: 140px;
+    background-color: rgb(88, 88, 88);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.startbutton:hover{
+    transform: scale(1.1);
+}
+
+.abajo{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgb(59, 46, 46) 0%, rgba(46,46,46,1) 44%, rgb(94, 94, 94) 100%);
+    text-align: center;
+}
+
+.titles{
+    font-size: 1.55rem;
+    color: white;
+    width: 50%;
+    padding-left: 8%;
+}
